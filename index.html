@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaredsTube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MaredsTube</h1>
+        <p>La plateforme de vidéos du Collège Saint-Benoit de Maredsous</p>
+    </header>
+    <main>
+        <form id="uploadForm">
+            <input type="file" id="videoFile" accept="video/*" required>
+            <input type="text" id="title" placeholder="Titre de la vidéo" required>
+            <button type="submit">Uploader la vidéo</button>
+        </form>
+        <section id="videoList">
+            <!-- Les vidéos apparaîtront ici -->
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
